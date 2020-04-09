@@ -1,0 +1,1 @@
+0 12 * * * /exec.sh >> /var/log/epic-script.log
