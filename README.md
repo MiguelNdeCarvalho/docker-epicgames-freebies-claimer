@@ -17,8 +17,6 @@ docker run \
   miguelndecarvalho/docker-epicgames-freebies-claimer
 ```
 
-docker run --env username="YOURUSERNAMEHERE" --env password="YOURPASSWORDHERE" -d MiguelNdeCarvalho/docker-epicgames-freebies-claimer epic-script
-
 ## Thanks
 
 [Revadike](https://github.com/Revadike)(for making this script)
