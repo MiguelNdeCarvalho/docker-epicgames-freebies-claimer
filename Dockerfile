@@ -15,4 +15,4 @@ RUN /setup.sh && \
     /usr/bin/crontab /crontab.txt && \
     rm /setup.sh
 
-CMD /usr/sbin/crond -f -l 8
+CMD /bin/sh /start.sh
