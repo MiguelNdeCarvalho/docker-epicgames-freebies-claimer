@@ -7,7 +7,17 @@ This is the docker image of the [epicgames-freebies-claimer](https://github.com/
 ## Running the Container
 
 To run the container simply do this:
-`docker run --env username="YOURUSERNAMEHERE" --env password="YOURPASSWORDHERE" -d`
+```bash
+docker run \
+  -d \
+  --name=epic-script \
+  -e username="YOURUSERNAMEHERE" \
+  -e password="YOURPASSWORDHERE" \
+  --restart unless-stopped \
+  miguelndecarvalho/docker-epicgames-freebies-claimer
+```
+
+docker run --env username="YOURUSERNAMEHERE" --env password="YOURPASSWORDHERE" -d MiguelNdeCarvalho/docker-epicgames-freebies-claimer epic-script
 
 ## Thanks
 
