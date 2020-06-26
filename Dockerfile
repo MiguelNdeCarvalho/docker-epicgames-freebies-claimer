@@ -3,6 +3,7 @@ LABEL maintainer = "MiguelNdeCarvalho <geral@miguelndecarvalho.pt>"
 
 ENV username=username
 ENV password=password
+ENV two_fa=0
 
 RUN apk upgrade --no-cache \
     && apk add --no-cache \
