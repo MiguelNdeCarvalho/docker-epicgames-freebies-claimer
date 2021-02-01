@@ -1,4 +1,4 @@
-FROM alpine:3.12.0
+FROM alpine:3.13.1
 LABEL maintainer = "MiguelNdeCarvalho <geral@miguelndecarvalho.pt>"
 
 ENV username=username
